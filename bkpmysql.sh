@@ -140,7 +140,7 @@ log "Destino: ${RCLONE_DEST}"
 log "Enviando e-mail de notificação..."
 sendEmail \
 -f "remetente@mail.com" \
--u "Backup MySQL 8 $DIA-$MES_NOME-$ANO" \
+-u "Backup MySQL 8" \
 -m "Backup Bancos ABC DEF GHI" \
 -s smtp.gmail.com:587 \
 -xu "remetente@mail.com" \
